@@ -8,9 +8,6 @@ import java.text.DateFormat;
 import java.text.SimpleDateFormat;
 import java.util.*;
 
-/**
- * Created by Song on 3/19/16.
- */
 public class Server {
     private static Map<String,String> ipBlacklist = new HashMap<String, String>();
     private static Map<String,Socket> loggedInUsers = new HashMap<String, Socket>();
