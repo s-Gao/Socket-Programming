@@ -2,9 +2,6 @@ package server;
 
 import java.util.TimerTask;
 
-/**
- * Created by Song on 3/20/16.
- */
 public class BlacklistTimer extends TimerTask {
     private String username;
     public BlacklistTimer(String username){
