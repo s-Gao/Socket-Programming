@@ -32,8 +32,7 @@ Then ‘java Server <port number>’ to run the server.
 After successfully login, some commands are those 6 supported commands.
 All the first 5 commands could handle some extra space. For example, in “send <username> <message>”, before send there could be multiple space, between send and <username> and between <username> and <message> there could be multiple space. The “logout” command should be exactly as it spells without any space to make sure it is not easily invoked and is only invoked when the user is cautious about it. I also decide to allow users to send message to themselves, which may give them a chance to see a message look like without any command keyword. 
 
-5. Extra Feature:
-
+5.Extra Feature:
 
 I implemented the offline message service. Basically this service is automatically invoked upon successful login for any user. If there is no offline message at all, nothing would be displayed. If there are offline messages, the user would receive something like: “Here are all the offline messages for you. Some messages. End of offline message.”
 Offline messages don’t include those broadcast messages but only those messages sent by two send commend. I have this thought because: 1. When people are broadcasting, since they know who is online by using command ‘who’, they may be not intended to send the message to this offline user at the very beginning. 2. Another concern is that saving messages are potentially expensive, this may not be a wise way to save so many messages. 3. The last concern is for the user who just get online. If so many messages just pump in front of you, it may not be a pleasant experience. 
