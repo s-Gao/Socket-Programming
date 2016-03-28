@@ -34,5 +34,6 @@ All the first 5 commands could handle some extra space. For example, in “send 
 
 5. Extra Feature:
 
+
 I implemented the offline message service. Basically this service is automatically invoked upon successful login for any user. If there is no offline message at all, nothing would be displayed. If there are offline messages, the user would receive something like: “Here are all the offline messages for you. Some messages. End of offline message.”
 Offline messages don’t include those broadcast messages but only those messages sent by two send commend. I have this thought because: 1. When people are broadcasting, since they know who is online by using command ‘who’, they may be not intended to send the message to this offline user at the very beginning. 2. Another concern is that saving messages are potentially expensive, this may not be a wise way to save so many messages. 3. The last concern is for the user who just get online. If so many messages just pump in front of you, it may not be a pleasant experience. 
