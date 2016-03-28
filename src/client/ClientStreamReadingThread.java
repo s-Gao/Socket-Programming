@@ -8,9 +8,6 @@ import java.net.Socket;
 import java.net.SocketTimeoutException;
 import java.util.concurrent.TimeoutException;
 
-/**
- * Created by Song on 3/21/16.
- */
 public class ClientStreamReadingThread extends Thread{
     private Socket socket;
     private static boolean socketConnected;
