@@ -13,9 +13,6 @@ import java.util.Timer;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-/**
- * Created by Song on 3/19/16.
- */
 public class ServerThread extends Thread{
     private static int BLOCK_TIME = 60;
 
