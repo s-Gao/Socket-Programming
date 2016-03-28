@@ -6,9 +6,6 @@ import java.io.InputStreamReader;
 import java.io.PrintStream;
 import java.net.*;
 
-/**
- * Created by Song on 3/19/16.
- */
 public class Client {
     private static String IPADDRESS;
     private static int PORT;
